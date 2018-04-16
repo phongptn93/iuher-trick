@@ -1,1 +1,28 @@
-# iuher-trick
+ <p style="color:red;text-align:  center;font-weight:  bold;">🕵 Khởi tạo code Load Lớp Học Phần Siêu Nhanh</p>
+                                <p>Mục đích: Giúp load nhanh các lớp học phần trong khung đăng ký từ mã học phần có sẵn.</p>
+								<p>💞 Bước 1: Đăng nhập trang <a href="http://www.iuh.edu.vn/phongdaotao/Login.aspx.">Đăng Ký Học Phần</a></p>
+								<p>💞 Bước 2: Di chuyển vào trang <a href="http://www.iuh.edu.vn/phongdaotao/DanhSachLopHocPhan.aspx">Xem Lớp Học Phần</a> để lấy Mã Học Phần Hoặc Mã Lớp Học Phần</p>
+                                <p>💞 Bước 3: Nhập mã học phần.</p>
+                                <p>💞 Bước 4: Nhấn button <strong style="color:blue">Khởi Tạo</strong>.</p>
+                                <p>💞 Bước 5: <strong style="color:blue">Copy đoạn mã code</strong> như hình phía dưới.</p>
+                                <p>💞 Bước 6: Truy cập trang <a href="http://www.iuh.edu.vn/phongdaotao/DangKyHP.aspx">Đăng Ký Học Phần</a> và nhấn tổ hợp phím <strong style="color:blue">Ctrl+Shift+J</strong> để đến giao diện console.</p>
+                                <p>💞 Bước 7: Tại đây Copy đoạn mã phia trên <strong style="color:blue">paste vào khung console</strong> như hình dưới.</p>
+                                <p>💞 Bước 8: Enter và chờ kết quả.</p>
+                                <p style="color: red;text-align: center;font-weight: bold;">🕵 Khởi tạo code đăng ký lớp Học Phần Siêu nhanh</p>
+                                <p>Mục đích: Hỗ trợ đăng ký nhanh theo mã lớp học phần khi chỉ cần biết mã học phần.</p>
+                                <p>💞 Tương tự như trên, nhưng thay vì nhập Mã Học Phần thì nhập Mã Lớp Học Phần</p>
+								<p>💞 Chú ý: Với Lớp Học Phần có nhóm thì nhập nhóm hoặc để trống</p>
+                                <p style="color:red;text-align:  center;font-weight:  bold;"> 👨‍👨‍👦 Mã nguồn và phát triển  👨‍👨‍👧‍👧</p>
+                                <p>Bộ công cụ phát sinh mã đăng ký học phần được phát triển bởi team B3bieSec thuộc club An Toàn Thông Tin - IUH.</p>
+                                <p>Mã nguồn và tài liệu được công khai đến cộng đồng sinh viên thành mã nguồn mở tại địa chỉ github</p>
+                                <p>Mục đích của bộ tool giúp tối ưu hóa tốc độ load và tránh tải dữ liệu từ server quá nhiều, Công cụ có khả năng giảm đáng để thời gian load học phần và đăng ký.</p>
+                                <p>Mọi đóng góp có thể liên hệ team tại địa chỉ: <a href="https://www.facebook.com/tanphongtcd">Fb Aki</a></p>
+                                <p style="color:red;text-align:  center;font-weight:  bold;"> 👨‍👨‍👦 Thành Viên Hỗ Trợ 👨‍👨‍👧‍👧</p>
+                                <p>👉 Vũ An Khang - FB </p>
+                                <p>👉 Lưu Gia Đức - FB </p>
+                                <p>👉 Phạm Văn Duẫn - FB </p>
+                                <p>👉 Dương Thế Tài - FB</p>
+                                <p style="color:red;text-align:  center;font-weight:  bold;"> 👨‍👨‍👦 Cộng Đồng IT-IUH 👨‍👨‍👧‍👧</p>
+                                <p>😎 https://fb.com/ITHumans/</p> 
+                                <p>😎 https://fb.com/groups/cntt.iuh/</p> 
+								<p>Ngoài ra cũng xin cảm ơn đến một số thành viên cũng như những người bạn đã góp ý hỗ trợ để bộ công cụ đơn giản nhất có thể</p>
