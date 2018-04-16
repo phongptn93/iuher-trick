@@ -9,7 +9,6 @@
                                 <p>💞 Bước 6: Truy cập trang <a href="http://www.iuh.edu.vn/phongdaotao/DangKyHP.aspx">Đăng Ký Học Phần</a> và nhấn tổ hợp phím <strong style="color:blue">Ctrl+Shift+J</strong> để đến giao diện console.</p>
                                 <p>💞 Bước 7: Tại đây Copy đoạn mã phia trên <strong style="color:blue">paste vào khung console</strong> như hình dưới.</p>
                                 <p>💞 Bước 8: Enter và chờ kết quả.</p>
-                                
                                 <p style="color:red;text-align:  center;font-weight:  bold;">🕵 Khởi tạo code Load Lớp Học Phần Siêu Nhanh</p>
                                 <p>Mục đích: Giúp load nhanh các lớp học phần trong khung đăng ký từ mã học phần có sẵn. Chức năng này giúp sinh viên dễ dàng kiểm tra được lớp học phần</p>
                                 <p>Điểm hay của chức năng này giúp cho sinh viên khi đã đăng ký học phần A nhưng vẫn có thể load lại lớp học phần A để kiểm tra các lớp trống hoặc tình trạng sinh viên của lớp. Để biết mà bay nhảy khi lớp chưa đủ sinh viên</p>
