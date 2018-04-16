@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<body style="background: #f3f2f2;">
+<body style="margin: 0 auto; background: #f3f2f2;">
     <div id="fb-root"></div>
      <script>(function(d, s, id) {
           var js, fjs = d.getElementsByTagName(s)[0];
@@ -18,11 +18,29 @@
 
     <div class="row" style="margin: 0px 0px 10px;">
         <div class="col-md-12" style="text-align: center; background: #337ab7; color: #f3f2f2;">
+                <img width="100px" style="margin-top: 10px;" src="./logo.png">
                 <h2>CÔNG CỤ KHỞI TẠO CODE ĐĂNG KÝ HỌC PHẦN - B3BIESEC</h2>
         </div>
     </div>
     <div ng-app="myAppIUH" ng-controller="myCtrl" class="row" style="width: 100%;margin: 0 auto;">
         <div class="col-md-8">
+
+            <div class="col-md-12">
+				<div class="panel panel-primary">
+					<div class="panel-heading" style="text-align: center;">Đăng Ký Lớp Học Phần Theo Mã Lớp Học Phần</div>
+					<div class="form-group panel-body">
+						<label>Mã Lớp Học Phần:</label>
+                        <input  class="form-control"  ng-model="maLopHocPhan">
+                        <label>Nhóm:</label>
+						<input type="number" min="1" max="5" class="form-control" ng-model="nhom">
+						<button class="btn btn-primary" style="margin:10px 0;" data-toggle="collapse" data-target="#codeDangKyLopHP" ng-click="generationCodeRegisterClass()">Khởi Tạo</button>
+						<div id="codeDangKyLopHP" class="collapse" class="col-md-12">
+							<textarea class="form-control"  style="width: 100%;" cols="50">{{codeGenerationCodeRegisterClass}}</textarea>
+						</div>
+					</div>
+				</div>
+            </div>   
+
             <div class="col-md-12" >
 				<div class="panel panel-primary">
 					<div class="panel-heading" style="text-align: center;"> Sinh Code Load Lớp Học Phần Theo Mã Học Phần</div>
@@ -37,21 +55,6 @@
 				</div>
             </div>
 
-            <div class="col-md-12">
-				<div class="panel panel-primary">
-					<div class="panel-heading" style="text-align: center;">Sinh Code Đăng Ký Lớp Học Phần Theo Mã Lớp Học Phần</div>
-					<div class="form-group panel-body">
-						<label>Mã Lớp Học Phần:</label>
-                        <input  class="form-control"  ng-model="maLopHocPhan">
-                        <label>Nhóm:</label>
-						<input type="number" min="1" max="5" class="form-control" ng-model="nhom">
-						<button class="btn btn-primary" style="margin:10px 0;" data-toggle="collapse" data-target="#codeDangKyLopHP" ng-click="generationCodeRegisterClass()">Khởi Tạo</button>
-						<div id="codeDangKyLopHP" class="collapse" class="col-md-12">
-							<textarea class="form-control"  style="width: 100%;" cols="50">{{codeGenerationCodeRegisterClass}}</textarea>
-						</div>
-					</div>
-				</div>
-            </div>   
             <style>
                 .fb-comments span{
                     width: 100% !important;
@@ -68,25 +71,29 @@
 				<div class="panel-heading" style="text-align: center;">Hướng Dẫn</div>
 				<div class="panel-body">
                         <div class="panel-body">
-                                <p style="color:red;text-align:  center;font-weight:  bold;">🕵 Khởi tạo code Load Lớp Học Phần Siêu Nhanh</p>
-                                <p>Mục đích: Giúp load nhanh các lớp học phần trong khung đăng ký từ mã học phần có sẵn.</p>
-								<p>💞 Bước 1: Đăng nhập trang <a href="http://www.iuh.edu.vn/phongdaotao/Login.aspx.">Đăng Ký Học Phần</a></p>
-								<p>💞 Bước 2: Di chuyển vào trang <a href="http://www.iuh.edu.vn/phongdaotao/DanhSachLopHocPhan.aspx">Xem Lớp Học Phần</a> để lấy Mã Học Phần Hoặc Mã Lớp Học Phần</p>
-                                <p>💞 Bước 3: Nhập mã học phần.</p>
+                                <p style="color: red;text-align: center;font-weight: bold;">🕵 Đăng ký lớp Học Phần Siêu Nhanh</p>
+                                <p>Mục đích: Hỗ trợ đăng ký nhanh theo mã lớp học phần khi chỉ cần biết mã học phần.</p>
+                                <p>💞 Bước 1: Đăng nhập trang <a href="http://www.iuh.edu.vn/phongdaotao/Login.aspx.">Đăng Ký Học Phần</a></p>
+								<p>💞 Bước 2: Di chuyển vào trang <a href="http://www.iuh.edu.vn/phongdaotao/DanhSachLopHocPhan.aspx">Xem Lớp Học Phần</a> để lấy Mã Học Phần</p>
+                                <p>💞 Bước 3: Nhập mã lớp học phần. và nhóm thực hành với lớp học phần có thực hành</p>
+                                <p>💞 Chú ý: Với Lớp Học Phần có nhóm thì nhập nhóm hoặc để trống</p>
                                 <p>💞 Bước 4: Nhấn button <strong style="color:blue">Khởi Tạo</strong>.</p>
                                 <p>💞 Bước 5: <strong style="color:blue">Copy đoạn mã code</strong> như hình phía dưới.</p>
                                 <p>💞 Bước 6: Truy cập trang <a href="http://www.iuh.edu.vn/phongdaotao/DangKyHP.aspx">Đăng Ký Học Phần</a> và nhấn tổ hợp phím <strong style="color:blue">Ctrl+Shift+J</strong> để đến giao diện console.</p>
                                 <p>💞 Bước 7: Tại đây Copy đoạn mã phia trên <strong style="color:blue">paste vào khung console</strong> như hình dưới.</p>
                                 <p>💞 Bước 8: Enter và chờ kết quả.</p>
-                                <p style="color: red;text-align: center;font-weight: bold;">🕵 Khởi tạo code đăng ký lớp Học Phần Siêu nhanh</p>
-                                <p>Mục đích: Hỗ trợ đăng ký nhanh theo mã lớp học phần khi chỉ cần biết mã học phần.</p>
-                                <p>💞 Tương tự như trên, nhưng thay vì nhập Mã Học Phần thì nhập Mã Lớp Học Phần</p>
-								<p>💞 Chú ý: Với Lớp Học Phần có nhóm thì nhập nhóm hoặc để trống</p>
+                                <p style="color:red;text-align:  center;font-weight:  bold;">🕵 Khởi tạo code Load Lớp Học Phần Siêu Nhanh</p>
+                                <p>Mục đích: Giúp load nhanh các lớp học phần trong khung đăng ký từ mã học phần có sẵn. Chức năng này giúp sinh viên dễ dàng kiểm tra được lớp học phần</p>
+                                <p>Điểm hay của chức năng này giúp cho sinh viên khi đã đăng ký học phần A nhưng vẫn có thể load lại lớp học phần A để kiểm tra các lớp trống hoặc tình trạng sinh viên của lớp. Để biết mà bay nhảy khi lớp chưa đủ sinh viên</p>
+                                <p>💞 Tương tự như trên, nhưng thay vì nhập Mã Lớp Học Phần thì nhập Mã Học Phần</p>
                                 <p style="color:red;text-align:  center;font-weight:  bold;"> 👨‍👨‍👦 Mã nguồn và phát triển  👨‍👨‍👧‍👧</p>
                                 <p>Bộ công cụ phát sinh mã đăng ký học phần được phát triển bởi team B3bieSec thuộc club An Toàn Thông Tin - IUH.</p>
-                                <p>Mã nguồn và tài liệu được công khai đến cộng đồng sinh viên thành mã nguồn mở tại địa chỉ github</p>
+                                <p>Mã nguồn và tài liệu được công khai đến cộng đồng sinh viên thành mã nguồn mở tại địa chỉ github <a href="https://github.com/phongptn93/iuher-trick">here</a></p>
                                 <p>Mục đích của bộ tool giúp tối ưu hóa tốc độ load và tránh tải dữ liệu từ server quá nhiều, Công cụ có khả năng giảm đáng để thời gian load học phần và đăng ký.</p>
                                 <p>Mọi đóng góp có thể liên hệ team tại địa chỉ: <a href="https://www.facebook.com/tanphongtcd">Fb Aki</a></p>
+                                <p>👮 Kế hoặc phát triển: </p>
+                                <p> 🖖 Kiểm tra tình trạng lớp học phần hiện tại nhanh chóng</p>
+                                <p> 🖖 .... </p> 
                                 <p style="color:red;text-align:  center;font-weight:  bold;"> 👨‍👨‍👦 Thành Viên Hỗ Trợ 👨‍👨‍👧‍👧</p>
                                 <p>👉 Vũ An Khang - FB </p>
                                 <p>👉 Lưu Gia Đức - FB </p>
