@@ -30,3 +30,5 @@
                                 <p>😎 https://fb.com/ITHumans/</p> 
                                 <p>😎 https://fb.com/groups/cntt.iuh/</p> 
 								<p>Ngoài ra cũng xin cảm ơn đến một số thành viên cũng như những người bạn đã góp ý hỗ trợ để bộ công cụ đơn giản nhất có thể</p>
+								
+								<a href="https://ko-fi.com/phongptn93" rel="nofollow"><img height="36" src="https://camo.githubusercontent.com/4cdac7dc4f4e4c5c70b284fcb02178b5bab0ba55/68747470733a2f2f617a3734333730322e766f2e6d7365636e642e6e65742f63646e2f6b6f6669312e706e673f763d32" border="0" alt="Buy Me a Coffee at ko-fi.com" data-canonical-src="https://az743702.vo.msecnd.net/cdn/kofi1.png?v=2" style="max-width:100%;"></a>
